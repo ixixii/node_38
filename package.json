@@ -1,0 +1,36 @@
+{
+  "name": "node_27",
+  "version": "1.0.0",
+  "main": "node_27_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server --files \"*.html, css/*.css, public/*.html, public/js/*.js, public/css/*.css, js/*.js\"",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "axios": "^0.18.0",
+    "blueimp-md5": "^2.10.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.1.0",
+    "element-ui": "^2.3.7",
+    "express": "^4.16.3",
+    "express-art-template": "^1.0.1",
+    "express-session": "^1.15.6",
+    "formidable": "^1.2.1",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.0.14",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.7"
+  },
+  "description": ""
+}

@@ -1,0 +1,30 @@
+/*设置css3的按钮样式,input的按钮样式*/  
+        button.class_btn {  
+            cursor: pointer;  
+            border:none;  
+            font-size: 16px;  
+            color: black;  
+            text-align: center;  
+            text-decoration: none;  
+            background-color: white;  
+            border-radius: 6px;
+            outline: none;
+            /*核心代码*/  
+            padding: 16px 32px;  
+            margin: 2px 2px;  
+            display: inline-block;  
+            border:2px solid #4CAF50;  
+  
+            /*核心代码*/  
+            /*兼容Safari*/  
+            -webkit-transition-duration:0.4s;  
+            transition-duration:0.4s;  
+        }  
+        /*第1个绿色按钮*/  
+        button.class_btn_green {  
+            border: 2px solid #4CAF50;  
+        }  
+        button.class_btn_green:hover {  
+            color: white;  
+            background-color: #4CAF50;  
+        } 
